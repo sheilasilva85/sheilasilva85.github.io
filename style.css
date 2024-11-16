@@ -1,0 +1,126 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font: weight 500px;
+}
+
+header {
+    background-image: url('images/Yum-Yum-Yuca\ logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(33, 33, 34);
+    size: 1440 x 800;
+    padding: 200px;
+
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-evenly;
+    /* Distributes images evenly */
+    align-items: center;
+    /* Centers images vertically */
+    margin: 5 px 0;
+    padding: 10px;
+
+}
+
+.image-section img {
+    max-width: 200px;
+    /* Ensures images don’t grow too large */
+    height: auto;
+    /* Maintains aspect ratio */
+    border-radius: 100px;
+    /* Optional styling for rounded corners */
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.image img {
+    width: 40%;
+    /* Adjust the image size */
+    height: auto;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-right: 200px;
+}
+
+
+.text {
+    width: 55%;
+    /* Adjust the text section width */
+    padding-right: 20px;
+}
+
+
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+
+.text p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #f4f4f4;
+    /* Light gray background for the footer */
+    padding: 20px 0;
+    /* Space inside the footer */
+    text-align: center;
+    /* Centers the content */
+    font-size: 14px;
+    color: #333;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    /* Adds some space below the icons */
+}
+
+.social-media a {
+    margin: 0 10px;
+    /* Adds space between the icons */
+    display: inline-block;
+}
+
+.social-icon {
+    width: 30px;
+    /* Adjust the size of the icons */
+    height: auto;
+    /* Keeps the aspect ratio */
+    transition: transform 0.3s;
+    /* Smooth hover effect */
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    /* Slight zoom-in effect on hover */
+}
+
+.horizontal-words {
+    display: flex;
+    /* Aligns items in a row */
+    justify-content: center;
+    /* Centers the words horizontally */
+    gap: 360px;
+    /* Adds space between the words */
+    margin: 20px 0;
+    /* Adds vertical spacing */
+    font-size: 24px;
+    /* Adjusts the font size */
+    font-weight: normal;
+    /* Makes the text bold */
+    text-transform: uppercase;
+    /* Optional: Makes all text uppercase */
+}
